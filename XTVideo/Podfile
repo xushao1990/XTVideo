@@ -1,0 +1,7 @@
+pod 'CocoaHTTPServer', '~> 2.3'
+pod 'AFNetworking'
+pod 'Category', :path => 'LocalPods/Basic/Category'
+pod 'Macro', :path => 'LocalPods/Basic/Macro'
+pod 'Tool', :path => 'LocalPods/Basic/Tool'
+pod 'XTPSCollectionView', :path => 'LocalPods/PSCollectionView'
+pod 'ALMoviePlayerController', '~> 0.3.0'

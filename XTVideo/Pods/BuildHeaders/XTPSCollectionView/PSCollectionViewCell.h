@@ -1,0 +1,1 @@
+../../../LocalPods/PSCollectionView/PSCollectionViewCell.h

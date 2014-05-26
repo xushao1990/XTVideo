@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0919F955192AEE8800543753 /* XTCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919F953192AEE8800543753 /* XTCacheViewController.m */; };
+		0919F956192AEE8800543753 /* XTCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919F953192AEE8800543753 /* XTCacheViewController.m */; };
+		0919F957192AEE8800543753 /* XTCacheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0919F954192AEE8800543753 /* XTCacheViewController.xib */; };
+		0919F958192AEE8800543753 /* XTCacheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0919F954192AEE8800543753 /* XTCacheViewController.xib */; };
+		094A53351929FDAF00CB03D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53341929FDAF00CB03D7 /* Foundation.framework */; };
+		094A53371929FDAF00CB03D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53361929FDAF00CB03D7 /* CoreGraphics.framework */; };
+		094A53391929FDAF00CB03D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53381929FDAF00CB03D7 /* UIKit.framework */; };
+		094A533F1929FDAF00CB03D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094A533D1929FDAF00CB03D7 /* InfoPlist.strings */; };
+		094A53411929FDAF00CB03D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A53401929FDAF00CB03D7 /* main.m */; };
+		094A53451929FDAF00CB03D7 /* XTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A53441929FDAF00CB03D7 /* XTAppDelegate.m */; };
+		094A53481929FDAF00CB03D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094A53461929FDAF00CB03D7 /* Main.storyboard */; };
+		094A534B1929FDAF00CB03D7 /* XTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A534A1929FDAF00CB03D7 /* XTMenuViewController.m */; };
+		094A534D1929FDAF00CB03D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094A534C1929FDAF00CB03D7 /* Images.xcassets */; };
+		094A53541929FDAF00CB03D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53531929FDAF00CB03D7 /* XCTest.framework */; };
+		094A53551929FDAF00CB03D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53341929FDAF00CB03D7 /* Foundation.framework */; };
+		094A53561929FDAF00CB03D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A53381929FDAF00CB03D7 /* UIKit.framework */; };
+		094A535E1929FDAF00CB03D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094A535C1929FDAF00CB03D7 /* InfoPlist.strings */; };
+		094A53601929FDAF00CB03D7 /* XTVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A535F1929FDAF00CB03D7 /* XTVideoTests.m */; };
+		094A536D1929FEDC00CB03D7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A536C1929FEDC00CB03D7 /* MediaPlayer.framework */; };
+		094A53711929FF2F00CB03D7 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A53701929FF2F00CB03D7 /* AFDownloadRequestOperation.m */; };
+		094A53721929FF2F00CB03D7 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A53701929FF2F00CB03D7 /* AFDownloadRequestOperation.m */; };
+		094A5375192A06E800CB03D7 /* XTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5374192A06E800CB03D7 /* XTListViewController.m */; };
+		094A5376192A06E800CB03D7 /* XTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5374192A06E800CB03D7 /* XTListViewController.m */; };
+		094A537B192A06FD00CB03D7 /* XTVideoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5378192A06FD00CB03D7 /* XTVideoListView.m */; };
+		094A537C192A06FD00CB03D7 /* XTVideoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5378192A06FD00CB03D7 /* XTVideoListView.m */; };
+		094A537D192A06FD00CB03D7 /* XTVideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A537A192A06FD00CB03D7 /* XTVideoListCell.m */; };
+		094A537E192A06FD00CB03D7 /* XTVideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A537A192A06FD00CB03D7 /* XTVideoListCell.m */; };
+		094A5384192A0FAB00CB03D7 /* XTMP4Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5383192A0FAB00CB03D7 /* XTMP4Downloader.m */; };
+		094A5385192A0FAB00CB03D7 /* XTMP4Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A5383192A0FAB00CB03D7 /* XTMP4Downloader.m */; };
+		099D6DE41933145200DE3998 /* NYPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DCE1933145200DE3998 /* NYPopover.m */; };
+		099D6DE51933145200DE3998 /* NYSliderPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DD01933145200DE3998 /* NYSliderPopover.m */; };
+		099D6DE61933145200DE3998 /* playBackwards_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD11933145200DE3998 /* playBackwards_highlighted.png */; };
+		099D6DE71933145200DE3998 /* playForwards_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD21933145200DE3998 /* playForwards_highlighted.png */; };
+		099D6DE81933145200DE3998 /* repeatVideoStarticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD31933145200DE3998 /* repeatVideoStarticon.png */; };
+		099D6DE91933145200DE3998 /* repeatVideoStarticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD41933145200DE3998 /* repeatVideoStarticon@2x.png */; };
+		099D6DEA1933145200DE3998 /* slider-metal-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD51933145200DE3998 /* slider-metal-handle.png */; };
+		099D6DEB1933145200DE3998 /* videoHQ_highLighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD61933145200DE3998 /* videoHQ_highLighted.png */; };
+		099D6DEC1933145200DE3998 /* videoPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD71933145200DE3998 /* videoPause.png */; };
+		099D6DED1933145200DE3998 /* videoPlayControlBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD81933145200DE3998 /* videoPlayControlBg.png */; };
+		099D6DEE1933145200DE3998 /* videoSound_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DD91933145200DE3998 /* videoSound_disabled.png */; };
+		099D6DEF1933145200DE3998 /* videoSound_highLighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DDA1933145200DE3998 /* videoSound_highLighted.png */; };
+		099D6DF01933145200DE3998 /* XTVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DDC1933145200DE3998 /* XTVideoModel.m */; };
+		099D6DF11933145200DE3998 /* XTVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DDE1933145200DE3998 /* XTVideoPlayer.m */; };
+		099D6DF21933145200DE3998 /* XTVideoPlayerToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DE01933145200DE3998 /* XTVideoPlayerToolView.m */; };
+		099D6DF31933145200DE3998 /* XTVideoPlayerToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099D6DE11933145200DE3998 /* XTVideoPlayerToolView.xib */; };
+		099D6DF41933145200DE3998 /* XTVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DE31933145200DE3998 /* XTVideoPlayerView.m */; };
+		099D6DF61933147200DE3998 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099D6DF51933147200DE3998 /* AVFoundation.framework */; };
+		099D6DF81933147800DE3998 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099D6DF71933147800DE3998 /* CoreMedia.framework */; };
+		099D6DFB1933182500DE3998 /* XTVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D6DFA1933182500DE3998 /* XTVideoPlayerViewController.m */; };
+		099D6EE0193365A600DE3998 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099D6EDF193365A600DE3998 /* AudioToolbox.framework */; };
+		09FA4B20192B2484006F7CE2 /* XTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B1F192B2484006F7CE2 /* XTPickerView.m */; };
+		09FA4B21192B2484006F7CE2 /* XTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B1F192B2484006F7CE2 /* XTPickerView.m */; };
+		09FA4B27192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B26192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m */; };
+		09FA4B28192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B26192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m */; };
+		09FA4B2B192B33DE006F7CE2 /* XTDownloadPlayHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B2A192B33DE006F7CE2 /* XTDownloadPlayHandle.m */; };
+		09FA4B2C192B33DE006F7CE2 /* XTDownloadPlayHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA4B2A192B33DE006F7CE2 /* XTDownloadPlayHandle.m */; };
+		97C61AB145DD4128AFCACF5E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B79E0DD6D4D509D4318D7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094A53571929FDAF00CB03D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094A53291929FDAF00CB03D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094A53301929FDAF00CB03D7;
+			remoteInfo = XTVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0919F952192AEE8800543753 /* XTCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCacheViewController.h; sourceTree = "<group>"; };
+		0919F953192AEE8800543753 /* XTCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCacheViewController.m; sourceTree = "<group>"; };
+		0919F954192AEE8800543753 /* XTCacheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTCacheViewController.xib; sourceTree = "<group>"; };
+		094A53311929FDAF00CB03D7 /* XTVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094A53341929FDAF00CB03D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		094A53361929FDAF00CB03D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		094A53381929FDAF00CB03D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		094A533C1929FDAF00CB03D7 /* XTVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XTVideo-Info.plist"; sourceTree = "<group>"; };
+		094A533E1929FDAF00CB03D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094A53401929FDAF00CB03D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		094A53421929FDAF00CB03D7 /* XTVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XTVideo-Prefix.pch"; sourceTree = "<group>"; };
+		094A53431929FDAF00CB03D7 /* XTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTAppDelegate.h; sourceTree = "<group>"; };
+		094A53441929FDAF00CB03D7 /* XTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTAppDelegate.m; sourceTree = "<group>"; };
+		094A53471929FDAF00CB03D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094A53491929FDAF00CB03D7 /* XTMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTMenuViewController.h; sourceTree = "<group>"; };
+		094A534A1929FDAF00CB03D7 /* XTMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTMenuViewController.m; sourceTree = "<group>"; };
+		094A534C1929FDAF00CB03D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		094A53521929FDAF00CB03D7 /* XTVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		094A53531929FDAF00CB03D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		094A535B1929FDAF00CB03D7 /* XTVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XTVideoTests-Info.plist"; sourceTree = "<group>"; };
+		094A535D1929FDAF00CB03D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094A535F1929FDAF00CB03D7 /* XTVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTVideoTests.m; sourceTree = "<group>"; };
+		094A536C1929FEDC00CB03D7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		094A536E1929FF1A00CB03D7 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		094A536F1929FF2F00CB03D7 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		094A53701929FF2F00CB03D7 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
+		094A5373192A06E800CB03D7 /* XTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTListViewController.h; sourceTree = "<group>"; };
+		094A5374192A06E800CB03D7 /* XTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTListViewController.m; sourceTree = "<group>"; };
+		094A5377192A06FD00CB03D7 /* XTVideoListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoListView.h; sourceTree = "<group>"; };
+		094A5378192A06FD00CB03D7 /* XTVideoListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoListView.m; sourceTree = "<group>"; };
+		094A5379192A06FD00CB03D7 /* XTVideoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoListCell.h; sourceTree = "<group>"; };
+		094A537A192A06FD00CB03D7 /* XTVideoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoListCell.m; sourceTree = "<group>"; };
+		094A5382192A0FAB00CB03D7 /* XTMP4Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMP4Downloader.h; sourceTree = "<group>"; };
+		094A5383192A0FAB00CB03D7 /* XTMP4Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMP4Downloader.m; sourceTree = "<group>"; };
+		099D6DCD1933145200DE3998 /* NYPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPopover.h; sourceTree = "<group>"; };
+		099D6DCE1933145200DE3998 /* NYPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPopover.m; sourceTree = "<group>"; };
+		099D6DCF1933145200DE3998 /* NYSliderPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSliderPopover.h; sourceTree = "<group>"; };
+		099D6DD01933145200DE3998 /* NYSliderPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSliderPopover.m; sourceTree = "<group>"; };
+		099D6DD11933145200DE3998 /* playBackwards_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playBackwards_highlighted.png; sourceTree = "<group>"; };
+		099D6DD21933145200DE3998 /* playForwards_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playForwards_highlighted.png; sourceTree = "<group>"; };
+		099D6DD31933145200DE3998 /* repeatVideoStarticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeatVideoStarticon.png; sourceTree = "<group>"; };
+		099D6DD41933145200DE3998 /* repeatVideoStarticon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repeatVideoStarticon@2x.png"; sourceTree = "<group>"; };
+		099D6DD51933145200DE3998 /* slider-metal-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-metal-handle.png"; sourceTree = "<group>"; };
+		099D6DD61933145200DE3998 /* videoHQ_highLighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoHQ_highLighted.png; sourceTree = "<group>"; };
+		099D6DD71933145200DE3998 /* videoPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoPause.png; sourceTree = "<group>"; };
+		099D6DD81933145200DE3998 /* videoPlayControlBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoPlayControlBg.png; sourceTree = "<group>"; };
+		099D6DD91933145200DE3998 /* videoSound_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoSound_disabled.png; sourceTree = "<group>"; };
+		099D6DDA1933145200DE3998 /* videoSound_highLighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoSound_highLighted.png; sourceTree = "<group>"; };
+		099D6DDB1933145200DE3998 /* XTVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoModel.h; sourceTree = "<group>"; };
+		099D6DDC1933145200DE3998 /* XTVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoModel.m; sourceTree = "<group>"; };
+		099D6DDD1933145200DE3998 /* XTVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoPlayer.h; sourceTree = "<group>"; };
+		099D6DDE1933145200DE3998 /* XTVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoPlayer.m; sourceTree = "<group>"; };
+		099D6DDF1933145200DE3998 /* XTVideoPlayerToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoPlayerToolView.h; sourceTree = "<group>"; };
+		099D6DE01933145200DE3998 /* XTVideoPlayerToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoPlayerToolView.m; sourceTree = "<group>"; };
+		099D6DE11933145200DE3998 /* XTVideoPlayerToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTVideoPlayerToolView.xib; sourceTree = "<group>"; };
+		099D6DE21933145200DE3998 /* XTVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoPlayerView.h; sourceTree = "<group>"; };
+		099D6DE31933145200DE3998 /* XTVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoPlayerView.m; sourceTree = "<group>"; };
+		099D6DF51933147200DE3998 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		099D6DF71933147800DE3998 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		099D6DF91933182500DE3998 /* XTVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVideoPlayerViewController.h; sourceTree = "<group>"; };
+		099D6DFA1933182500DE3998 /* XTVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVideoPlayerViewController.m; sourceTree = "<group>"; };
+		099D6EDF193365A600DE3998 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		09FA4B1E192B2484006F7CE2 /* XTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPickerView.h; sourceTree = "<group>"; };
+		09FA4B1F192B2484006F7CE2 /* XTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPickerView.m; sourceTree = "<group>"; };
+		09FA4B25192B3282006F7CE2 /* XTMP4DownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMP4DownloadRequestOperation.h; sourceTree = "<group>"; };
+		09FA4B26192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMP4DownloadRequestOperation.m; sourceTree = "<group>"; };
+		09FA4B29192B33DE006F7CE2 /* XTDownloadPlayHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTDownloadPlayHandle.h; sourceTree = "<group>"; };
+		09FA4B2A192B33DE006F7CE2 /* XTDownloadPlayHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTDownloadPlayHandle.m; sourceTree = "<group>"; };
+		3F2D10F5C7604D458AC1FBC6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		582B79E0DD6D4D509D4318D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094A532E1929FDAF00CB03D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099D6EE0193365A600DE3998 /* AudioToolbox.framework in Frameworks */,
+				099D6DF81933147800DE3998 /* CoreMedia.framework in Frameworks */,
+				099D6DF61933147200DE3998 /* AVFoundation.framework in Frameworks */,
+				094A536D1929FEDC00CB03D7 /* MediaPlayer.framework in Frameworks */,
+				094A53371929FDAF00CB03D7 /* CoreGraphics.framework in Frameworks */,
+				094A53391929FDAF00CB03D7 /* UIKit.framework in Frameworks */,
+				094A53351929FDAF00CB03D7 /* Foundation.framework in Frameworks */,
+				97C61AB145DD4128AFCACF5E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094A534F1929FDAF00CB03D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094A53541929FDAF00CB03D7 /* XCTest.framework in Frameworks */,
+				094A53561929FDAF00CB03D7 /* UIKit.framework in Frameworks */,
+				094A53551929FDAF00CB03D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094A53281929FDAF00CB03D7 = {
+			isa = PBXGroup;
+			children = (
+				094A533A1929FDAF00CB03D7 /* XTVideo */,
+				094A53591929FDAF00CB03D7 /* XTVideoTests */,
+				094A53331929FDAF00CB03D7 /* Frameworks */,
+				094A53321929FDAF00CB03D7 /* Products */,
+				3F2D10F5C7604D458AC1FBC6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		094A53321929FDAF00CB03D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094A53311929FDAF00CB03D7 /* XTVideo.app */,
+				094A53521929FDAF00CB03D7 /* XTVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094A53331929FDAF00CB03D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099D6EDF193365A600DE3998 /* AudioToolbox.framework */,
+				099D6DF71933147800DE3998 /* CoreMedia.framework */,
+				099D6DF51933147200DE3998 /* AVFoundation.framework */,
+				094A536C1929FEDC00CB03D7 /* MediaPlayer.framework */,
+				094A53341929FDAF00CB03D7 /* Foundation.framework */,
+				094A53361929FDAF00CB03D7 /* CoreGraphics.framework */,
+				094A53381929FDAF00CB03D7 /* UIKit.framework */,
+				094A53531929FDAF00CB03D7 /* XCTest.framework */,
+				582B79E0DD6D4D509D4318D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		094A533A1929FDAF00CB03D7 /* XTVideo */ = {
+			isa = PBXGroup;
+			children = (
+				094A53431929FDAF00CB03D7 /* XTAppDelegate.h */,
+				094A53441929FDAF00CB03D7 /* XTAppDelegate.m */,
+				094A53461929FDAF00CB03D7 /* Main.storyboard */,
+				094A53491929FDAF00CB03D7 /* XTMenuViewController.h */,
+				094A534A1929FDAF00CB03D7 /* XTMenuViewController.m */,
+				09FA4B1E192B2484006F7CE2 /* XTPickerView.h */,
+				09FA4B1F192B2484006F7CE2 /* XTPickerView.m */,
+				094A5373192A06E800CB03D7 /* XTListViewController.h */,
+				094A5374192A06E800CB03D7 /* XTListViewController.m */,
+				099D6DF91933182500DE3998 /* XTVideoPlayerViewController.h */,
+				099D6DFA1933182500DE3998 /* XTVideoPlayerViewController.m */,
+				09FA4B29192B33DE006F7CE2 /* XTDownloadPlayHandle.h */,
+				09FA4B2A192B33DE006F7CE2 /* XTDownloadPlayHandle.m */,
+				0919F952192AEE8800543753 /* XTCacheViewController.h */,
+				0919F953192AEE8800543753 /* XTCacheViewController.m */,
+				0919F954192AEE8800543753 /* XTCacheViewController.xib */,
+				094A5377192A06FD00CB03D7 /* XTVideoListView.h */,
+				094A5378192A06FD00CB03D7 /* XTVideoListView.m */,
+				094A5379192A06FD00CB03D7 /* XTVideoListCell.h */,
+				094A537A192A06FD00CB03D7 /* XTVideoListCell.m */,
+				094A5382192A0FAB00CB03D7 /* XTMP4Downloader.h */,
+				094A5383192A0FAB00CB03D7 /* XTMP4Downloader.m */,
+				09FA4B25192B3282006F7CE2 /* XTMP4DownloadRequestOperation.h */,
+				09FA4B26192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m */,
+				094A536E1929FF1A00CB03D7 /* Configuration.h */,
+				094A536F1929FF2F00CB03D7 /* AFDownloadRequestOperation.h */,
+				094A53701929FF2F00CB03D7 /* AFDownloadRequestOperation.m */,
+				099D6DCB1933145200DE3998 /* XTVideoPlayer */,
+				094A534C1929FDAF00CB03D7 /* Images.xcassets */,
+				094A533B1929FDAF00CB03D7 /* Supporting Files */,
+			);
+			path = XTVideo;
+			sourceTree = "<group>";
+		};
+		094A533B1929FDAF00CB03D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094A533C1929FDAF00CB03D7 /* XTVideo-Info.plist */,
+				094A533D1929FDAF00CB03D7 /* InfoPlist.strings */,
+				094A53401929FDAF00CB03D7 /* main.m */,
+				094A53421929FDAF00CB03D7 /* XTVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		094A53591929FDAF00CB03D7 /* XTVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				094A535F1929FDAF00CB03D7 /* XTVideoTests.m */,
+				094A535A1929FDAF00CB03D7 /* Supporting Files */,
+			);
+			path = XTVideoTests;
+			sourceTree = "<group>";
+		};
+		094A535A1929FDAF00CB03D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094A535B1929FDAF00CB03D7 /* XTVideoTests-Info.plist */,
+				094A535C1929FDAF00CB03D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099D6DCB1933145200DE3998 /* XTVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				099D6DCC1933145200DE3998 /* NYSliderPopover */,
+				099D6DDB1933145200DE3998 /* XTVideoModel.h */,
+				099D6DDC1933145200DE3998 /* XTVideoModel.m */,
+				099D6DDD1933145200DE3998 /* XTVideoPlayer.h */,
+				099D6DDE1933145200DE3998 /* XTVideoPlayer.m */,
+				099D6DDF1933145200DE3998 /* XTVideoPlayerToolView.h */,
+				099D6DE01933145200DE3998 /* XTVideoPlayerToolView.m */,
+				099D6DE11933145200DE3998 /* XTVideoPlayerToolView.xib */,
+				099D6DE21933145200DE3998 /* XTVideoPlayerView.h */,
+				099D6DE31933145200DE3998 /* XTVideoPlayerView.m */,
+				099D6DD11933145200DE3998 /* playBackwards_highlighted.png */,
+				099D6DD21933145200DE3998 /* playForwards_highlighted.png */,
+				099D6DD31933145200DE3998 /* repeatVideoStarticon.png */,
+				099D6DD41933145200DE3998 /* repeatVideoStarticon@2x.png */,
+				099D6DD51933145200DE3998 /* slider-metal-handle.png */,
+				099D6DD61933145200DE3998 /* videoHQ_highLighted.png */,
+				099D6DD71933145200DE3998 /* videoPause.png */,
+				099D6DD81933145200DE3998 /* videoPlayControlBg.png */,
+				099D6DD91933145200DE3998 /* videoSound_disabled.png */,
+				099D6DDA1933145200DE3998 /* videoSound_highLighted.png */,
+			);
+			path = XTVideoPlayer;
+			sourceTree = "<group>";
+		};
+		099D6DCC1933145200DE3998 /* NYSliderPopover */ = {
+			isa = PBXGroup;
+			children = (
+				099D6DCD1933145200DE3998 /* NYPopover.h */,
+				099D6DCE1933145200DE3998 /* NYPopover.m */,
+				099D6DCF1933145200DE3998 /* NYSliderPopover.h */,
+				099D6DD01933145200DE3998 /* NYSliderPopover.m */,
+			);
+			path = NYSliderPopover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094A53301929FDAF00CB03D7 /* XTVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094A53631929FDAF00CB03D7 /* Build configuration list for PBXNativeTarget "XTVideo" */;
+			buildPhases = (
+				390ACED17CA24E108C92AAAD /* Check Pods Manifest.lock */,
+				094A532D1929FDAF00CB03D7 /* Sources */,
+				094A532E1929FDAF00CB03D7 /* Frameworks */,
+				094A532F1929FDAF00CB03D7 /* Resources */,
+				9B4D246B3BB2465C8FACC4E3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTVideo;
+			productName = XTVideo;
+			productReference = 094A53311929FDAF00CB03D7 /* XTVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094A53511929FDAF00CB03D7 /* XTVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094A53661929FDAF00CB03D7 /* Build configuration list for PBXNativeTarget "XTVideoTests" */;
+			buildPhases = (
+				094A534E1929FDAF00CB03D7 /* Sources */,
+				094A534F1929FDAF00CB03D7 /* Frameworks */,
+				094A53501929FDAF00CB03D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094A53581929FDAF00CB03D7 /* PBXTargetDependency */,
+			);
+			name = XTVideoTests;
+			productName = XTVideoTests;
+			productReference = 094A53521929FDAF00CB03D7 /* XTVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094A53291929FDAF00CB03D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NULL;
+				TargetAttributes = {
+					094A53511929FDAF00CB03D7 = {
+						TestTargetID = 094A53301929FDAF00CB03D7;
+					};
+				};
+			};
+			buildConfigurationList = 094A532C1929FDAF00CB03D7 /* Build configuration list for PBXProject "XTVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094A53281929FDAF00CB03D7;
+			productRefGroup = 094A53321929FDAF00CB03D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094A53301929FDAF00CB03D7 /* XTVideo */,
+				094A53511929FDAF00CB03D7 /* XTVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094A532F1929FDAF00CB03D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099D6DEB1933145200DE3998 /* videoHQ_highLighted.png in Resources */,
+				094A534D1929FDAF00CB03D7 /* Images.xcassets in Resources */,
+				099D6DEA1933145200DE3998 /* slider-metal-handle.png in Resources */,
+				099D6DE81933145200DE3998 /* repeatVideoStarticon.png in Resources */,
+				099D6DED1933145200DE3998 /* videoPlayControlBg.png in Resources */,
+				099D6DE61933145200DE3998 /* playBackwards_highlighted.png in Resources */,
+				099D6DF31933145200DE3998 /* XTVideoPlayerToolView.xib in Resources */,
+				094A533F1929FDAF00CB03D7 /* InfoPlist.strings in Resources */,
+				094A53481929FDAF00CB03D7 /* Main.storyboard in Resources */,
+				099D6DEE1933145200DE3998 /* videoSound_disabled.png in Resources */,
+				099D6DEF1933145200DE3998 /* videoSound_highLighted.png in Resources */,
+				0919F957192AEE8800543753 /* XTCacheViewController.xib in Resources */,
+				099D6DE71933145200DE3998 /* playForwards_highlighted.png in Resources */,
+				099D6DE91933145200DE3998 /* repeatVideoStarticon@2x.png in Resources */,
+				099D6DEC1933145200DE3998 /* videoPause.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094A53501929FDAF00CB03D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0919F958192AEE8800543753 /* XTCacheViewController.xib in Resources */,
+				094A535E1929FDAF00CB03D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		390ACED17CA24E108C92AAAD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4D246B3BB2465C8FACC4E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094A532D1929FDAF00CB03D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094A5384192A0FAB00CB03D7 /* XTMP4Downloader.m in Sources */,
+				094A537B192A06FD00CB03D7 /* XTVideoListView.m in Sources */,
+				094A5375192A06E800CB03D7 /* XTListViewController.m in Sources */,
+				099D6DE51933145200DE3998 /* NYSliderPopover.m in Sources */,
+				094A53711929FF2F00CB03D7 /* AFDownloadRequestOperation.m in Sources */,
+				099D6DF21933145200DE3998 /* XTVideoPlayerToolView.m in Sources */,
+				094A53451929FDAF00CB03D7 /* XTAppDelegate.m in Sources */,
+				094A537D192A06FD00CB03D7 /* XTVideoListCell.m in Sources */,
+				09FA4B20192B2484006F7CE2 /* XTPickerView.m in Sources */,
+				09FA4B27192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m in Sources */,
+				0919F955192AEE8800543753 /* XTCacheViewController.m in Sources */,
+				099D6DFB1933182500DE3998 /* XTVideoPlayerViewController.m in Sources */,
+				099D6DF11933145200DE3998 /* XTVideoPlayer.m in Sources */,
+				099D6DE41933145200DE3998 /* NYPopover.m in Sources */,
+				094A534B1929FDAF00CB03D7 /* XTMenuViewController.m in Sources */,
+				094A53411929FDAF00CB03D7 /* main.m in Sources */,
+				09FA4B2B192B33DE006F7CE2 /* XTDownloadPlayHandle.m in Sources */,
+				099D6DF01933145200DE3998 /* XTVideoModel.m in Sources */,
+				099D6DF41933145200DE3998 /* XTVideoPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094A534E1929FDAF00CB03D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094A537C192A06FD00CB03D7 /* XTVideoListView.m in Sources */,
+				09FA4B2C192B33DE006F7CE2 /* XTDownloadPlayHandle.m in Sources */,
+				0919F956192AEE8800543753 /* XTCacheViewController.m in Sources */,
+				094A53721929FF2F00CB03D7 /* AFDownloadRequestOperation.m in Sources */,
+				09FA4B28192B3282006F7CE2 /* XTMP4DownloadRequestOperation.m in Sources */,
+				094A5385192A0FAB00CB03D7 /* XTMP4Downloader.m in Sources */,
+				094A537E192A06FD00CB03D7 /* XTVideoListCell.m in Sources */,
+				094A53601929FDAF00CB03D7 /* XTVideoTests.m in Sources */,
+				09FA4B21192B2484006F7CE2 /* XTPickerView.m in Sources */,
+				094A5376192A06E800CB03D7 /* XTListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094A53581929FDAF00CB03D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094A53301929FDAF00CB03D7 /* XTVideo */;
+			targetProxy = 094A53571929FDAF00CB03D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		094A533D1929FDAF00CB03D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094A533E1929FDAF00CB03D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		094A53461929FDAF00CB03D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094A53471929FDAF00CB03D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094A535C1929FDAF00CB03D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094A535D1929FDAF00CB03D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094A53611929FDAF00CB03D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		094A53621929FDAF00CB03D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094A53641929FDAF00CB03D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2D10F5C7604D458AC1FBC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTVideo/XTVideo-Prefix.pch";
+				INFOPLIST_FILE = "XTVideo/XTVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		094A53651929FDAF00CB03D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2D10F5C7604D458AC1FBC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTVideo/XTVideo-Prefix.pch";
+				INFOPLIST_FILE = "XTVideo/XTVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		094A53671929FDAF00CB03D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XTVideo.app/XTVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTVideo/XTVideo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XTVideoTests/XTVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		094A53681929FDAF00CB03D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XTVideo.app/XTVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTVideo/XTVideo-Prefix.pch";
+				INFOPLIST_FILE = "XTVideoTests/XTVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094A532C1929FDAF00CB03D7 /* Build configuration list for PBXProject "XTVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094A53611929FDAF00CB03D7 /* Debug */,
+				094A53621929FDAF00CB03D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094A53631929FDAF00CB03D7 /* Build configuration list for PBXNativeTarget "XTVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094A53641929FDAF00CB03D7 /* Debug */,
+				094A53651929FDAF00CB03D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094A53661929FDAF00CB03D7 /* Build configuration list for PBXNativeTarget "XTVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094A53671929FDAF00CB03D7 /* Debug */,
+				094A53681929FDAF00CB03D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094A53291929FDAF00CB03D7 /* Project object */;
+}

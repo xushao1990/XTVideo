@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.3)
+  - AFNetworking/Security (2.2.3)
+  - AFNetworking/Serialization (2.2.3)
+  - AFNetworking/UIKit (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ALMoviePlayerController (0.3.0)
+  - Category (0.0.6)
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (1.8.1):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.8.1)
+  - CocoaLumberjack/Extensions (1.8.1):
+    - CocoaLumberjack/Core
+  - Macro (0.0.6)
+  - Tool (0.0.5)
+  - XTPSCollectionView (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ALMoviePlayerController (~> 0.3.0)
+  - Category (from `LocalPods/Basic/Category`)
+  - CocoaHTTPServer (~> 2.3)
+  - Macro (from `LocalPods/Basic/Macro`)
+  - Tool (from `LocalPods/Basic/Tool`)
+  - XTPSCollectionView (from `LocalPods/PSCollectionView`)
+
+EXTERNAL SOURCES:
+  Category:
+    :path: LocalPods/Basic/Category
+  Macro:
+    :path: LocalPods/Basic/Macro
+  Tool:
+    :path: LocalPods/Basic/Tool
+  XTPSCollectionView:
+    :path: LocalPods/PSCollectionView
+
+SPEC CHECKSUMS:
+  AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
+  ALMoviePlayerController: e4a22e60340ffe429711a71e6dfb813fd38f10d2
+  Category: 25c8b46187e3226e0a12cd83f43e5d5690092cb2
+  CocoaAsyncSocket: a3b6de9958961578b36eabb8e921efd95b13d80c
+  CocoaHTTPServer: 7c2fce6617f7fda0e3f4fc34f96e562caa7c7bd8
+  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
+  Macro: ff5f5ae92ef9eaf32e1814babef641f15ada1d06
+  Tool: 889a58980d5e3b3ec5707a57f83b307e8e365330
+  XTPSCollectionView: 22d6beedcdca20144f369c664c96e3b05cbaa761
+
+COCOAPODS: 0.32.1

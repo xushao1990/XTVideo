@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C582040-A6C0-4FE6-BB9F-7F2B10E11594</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XTVideo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24EC4F1D-5E00-4BC6-93FC-C1FF8C1FACEC</key>
+		<string>https://github.com/xushao1990/XTVideo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XTVideo/XTVideo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24EC4F1D-5E00-4BC6-93FC-C1FF8C1FACEC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xushao1990/XTVideo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24EC4F1D-5E00-4BC6-93FC-C1FF8C1FACEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24EC4F1D-5E00-4BC6-93FC-C1FF8C1FACEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XTVideo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
